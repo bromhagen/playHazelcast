@@ -1,9 +1,8 @@
 package playHazelcast.api
 
 import play.api.Plugin
-import com.hazelcast.core.{HazelcastInstance, Hazelcast, MembershipEvent, MembershipListener}
+import com.hazelcast.core.{HazelcastInstance, Hazelcast}
 import com.hazelcast.config._
-import play.api.Play
 import play.api.Logger
 
 class HazelcastPlugin(app: play.api.Application) extends Plugin {
